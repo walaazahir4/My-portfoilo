@@ -1,0 +1,32 @@
+ /* palette color #4C4B16 and #898121 and #E6C767  */
+.img{
+  opacity: 0.5;
+}
+ .boss{
+  margin-top: 70px;
+  margin-bottom: 10px;
+  background-color: #E6C767; 
+}
+  .carousel-caption {
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    right: auto; /* Ensure it doesn’t stretch to the right */
+    bottom: auto; /* Override the default bottom positioning */
+    text-align: left; 
+  }
+
+    /* Styling my name */
+    .carousel-caption h5 {
+        font-size: 65px; 
+        color: #4C4B16;
+        text-shadow: 2px 3px #E6C767;
+    }
+
+    /* styling my job title */
+      .carousel-caption p {
+        font-size: 35px; 
+        color: #4C4B16; 
+        font-weight: bold;
+        text-shadow: 2px 2px #E6C767;
+    }

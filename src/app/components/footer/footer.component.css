@@ -1,0 +1,40 @@
+ /* palette color #4C4B16 and #898121 and #E6C767  */
+footer{
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f1f1f1; /* Customize this to match your design */
+        text-align: center;         /* Align the content in the center */
+        padding: 10px 0;            /* Adjust padding as needed */
+        z-index: 1000;              /* Ensures it's above other content */
+      }
+}
+.bg-dark {
+    background-color: #4C4B16 !important; 
+}
+
+.text-white {
+    color: #E6C767 !important;
+}
+
+.btn-outline-light {
+    border-color: #898121 !important; 
+    color: #E6C767 !important; 
+}
+
+.btn-outline-light:hover {
+    background-color: #898121 !important; 
+    color: #4C4B16 !important; 
+}
+
+.fa-linkedin-in, .fa-facebook-f, .fa-envelope, .fa-github {
+    color: #E6C767 !important; 
+}
+
+.fa-linkedin-in:hover, .fa-facebook-f:hover, .fa-envelope:hover, .fa-github:hover {
+    color: #4C4B16 !important; 
+}
+
+

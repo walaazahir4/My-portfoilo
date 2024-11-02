@@ -1,0 +1,47 @@
+   /* palette color #4C4B16 and #898121 and #E6C767 */
+  
+   .boss{
+    margin-bottom: 92px;
+  }
+  .card-group{
+    margin-top: 62px;
+  }
+   .btn{
+    margin-bottom: 10px;
+  }
+  button{
+    color:#E6C767;
+  }
+  
+.card {
+    background-color: #E6C767; 
+    border: 2px solid #898121; 
+    border-radius: 10px; 
+}
+
+.card-title {
+    color: #4C4B16; 
+}
+
+.card-text, .text-body-secondary {
+    color: #4C4B16; 
+}
+
+.btn-primary {
+    background-color: #898121; 
+    border-color: #4C4B16; 
+}
+
+.btn-primary:hover {
+    background-color: #4C4B16; 
+    border-color: #4C4B16; 
+    color: #E6C767;
+}
+@media screen {
+    img:hover{
+transition: transform;
+transform: scale(0.9);
+border: 3px solid #4C4B16;
+background-color: antiquewhite;
+    }
+}

@@ -1,0 +1,15 @@
+   /* palette color #4C4B16 and #898121 and #E6C767 */
+
+   .boss {
+    display: inline-block;     
+    text-align: center;        
+    padding: 20px; 
+    margin-left: 25%;           
+    margin-bottom: 20px;
+    border-left: 2px solid #4C4B16;
+    border-right: 2px solid #4C4B16;
+  }
+  
+  h3{
+    font-weight: normal;
+  }

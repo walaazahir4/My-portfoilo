@@ -1,0 +1,77 @@
+   /* palette color #4C4B16 and #898121 and #E6C767 */
+   .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #898121;
+    border-top: 4px solid #4C4B16;
+    border-bottom: 4px solid #4C4B16;
+    border-radius: 10px;
+    color: #E6C767;
+    margin-bottom: 10px;
+  }
+div.gallery {
+    border: 1px solid #4C4B16;
+  }
+  
+  div.gallery:hover {
+    border-bottom: 2px solid #E6C767;
+    border-top: 2px solid #E6C767;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  /* just for styling */
+  img:hover{
+    opacity: 0.6;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-left: 50px;
+
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+   
